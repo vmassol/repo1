@@ -1,4 +1,4 @@
-import hudson.FilePath;
+node() {
 
 script {
         sh 'env > env.txt'
@@ -8,4 +8,4 @@ script {
             println(vars)
         }
     }
-
+}
