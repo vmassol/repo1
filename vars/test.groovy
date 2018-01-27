@@ -7,7 +7,7 @@ def call(jobConfig, body)
     body()
 }
 
-def xwikiBuild(String name = 'Default', buildConfig)
+def testBuild(String name = 'Default', buildConfig)
 {
     echo var
 }
