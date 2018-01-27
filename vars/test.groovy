@@ -2,7 +2,7 @@
 
 def call(jobConfig, body)
 {
-    var = "hello"
+    env.xwikiVar = "hello"
 
     body()
 }
