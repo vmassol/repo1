@@ -2,7 +2,7 @@
 
 def call(jobConfig, body)
 {
-    def var = "hello"
+    var = "hello"
 
     body()
 }

@@ -2,6 +2,6 @@
 
 def call(String name = 'Default', buildConfig)
 {
-    echo this.var
+    echo var
 }
 
