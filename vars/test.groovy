@@ -6,9 +6,3 @@ def call(jobConfig, body)
 
     body()
 }
-
-def testBuild(String name = 'Default', buildConfig)
-{
-    echo var
-}
-
