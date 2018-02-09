@@ -266,7 +266,7 @@ ${FAILED_TESTS}
 
 Cause of error:
 
-${BUILD_LOG_REGEX, regex = ".*FAILURE.\\[.* (?:s|min)\\].*", linesBefore = 200, linesAfter = 0}
+${BUILD_LOG_REGEX, regex = ".*FAILURE.\\[.*(?:s|min)\\].*", linesBefore = 200, linesAfter = 0}
 
 Maven error reported:
 
