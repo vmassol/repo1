@@ -1,11 +1,3 @@
 node() {
-echo "REPO1 - jenkinsfile2"
-script {
-        sh 'env > env.txt'
-        String[] envs = readFile('env.txt').split("\r?\n")
-
-        for(String vars: envs){
-            println(vars)
-        }
-    }
+  echo "REPO1 - jenkinsfile2"
 }
