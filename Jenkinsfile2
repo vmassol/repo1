@@ -1,18 +1,2 @@
-pipeline {
-    agent any
-    triggers {
-        cron('H/5 * * * *')
-    }
-    stages {
-        stage('Process Price Feed') {
-            steps {
-                timeout(time: 10, unit: 'MINUTES') {
-                    retry(3) {
-                        echo 'Running shell commands to process feed'
-                    }
-                }
-            }
-        }
-    }
-}
+properties([overrideIndexTriggers(false)])
 
